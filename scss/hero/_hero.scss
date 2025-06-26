@@ -1,0 +1,32 @@
+@use'../normal.scss';
+@use'../varibles' as*;
+header{
+    background-image: url(../../imgs/png/hero-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    height: 700px;
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        padding: 2rem 0;
+        align-items: center;
+        .navbar_menu{
+            ul{
+            display: flex;
+            color: white;
+            list-style: none;
+            gap: 2rem;
+        }
+    }
+        button{
+            padding: 2px 22px;
+            background-color: $br-color;
+            border: 1px solid $br-color;
+            color: $text-color;
+            border-radius: $br-radius-30;
+            text-transform: capitalize;
+        }
+    }
+}

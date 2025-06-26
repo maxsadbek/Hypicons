@@ -1,3 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Inder&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "inter", sans-serif;
+}
 
+.container {
+  max-width: 1380px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  background-image: url(../../imgs/png/hero-img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  background-position: center;
+  height: 700px;
+}
+header .navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0;
+  align-items: center;
+}
+header .navbar .navbar_menu ul {
+  display: flex;
+  color: white;
+  list-style: none;
+  gap: 2rem;
+}
+header .navbar button {
+  padding: 2px 22px;
+  background-color: #9400ff;
+  border: 1px solid #9400ff;
+  color: #fff;
+  border-radius: 30px;
+  text-transform: capitalize;
+}
 
 /*# sourceMappingURL=style.css.map */

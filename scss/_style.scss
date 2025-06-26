@@ -1,2 +1,8 @@
-@use'./mixins';
-@use'./varibles'
+@use'./varibles';
+@use'./bigsur/bigsur';
+@use'./footer/footer';
+@use'./grab/grab';
+@use'./hero/hero';
+@use'./request/request';
+@use'./unique/unique';
+@use'./normal.scss';
