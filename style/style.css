@@ -1,19 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Inder&display=swap");
-footer {
-  text-align: center;
-  background-color: #000;
-  padding: 6rem 0;
-  color: #fff;
-}
-footer p {
-  font-size: 18px;
-  margin-top: 1.5rem;
-}
-footer a {
-  text-decoration: none;
-  color: #9400fb;
-}
-
 .grab_parent {
   text-align: center;
   background-color: #000;
@@ -67,6 +52,9 @@ header .navbar {
   justify-content: space-between;
   padding: 2rem 0;
   align-items: center;
+}
+header .navbar i{
+    display: none;
 }
 header .navbar .navbar_menu ul {
   display: flex;
@@ -171,3 +159,387 @@ header .hero p {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+footer {
+  text-align: center;
+  background-color: #000;
+  padding: 6rem 0;
+  color: #fff;
+}
+footer p {
+  font-size: 18px;
+  margin-top: 1.5rem;
+}
+footer a {
+  text-decoration: none;
+  color: #9400fb;
+}
+@media (max-width:600px){
+
+.grab_parent {
+  text-align: center;
+  background-color: #000;
+  background-image: url(../../imgs/png/grab.png);
+  height: 400px;
+  padding: 8rem 0;
+}
+.grab_parent h1 {
+  font-size: 26px;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+.grab_parent p {
+  font-size: 16px;
+  width: 100%;
+  font-weight: 200;
+}
+.grab_parent button {
+  background-color: #9400ff;
+  color: #fff;
+  padding: 16px 25px;
+  border-radius: 30px;
+  border: 1px solid #9400ff;
+  text-transform: capitalize;
+  margin-top: 2rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "inter", sans-serif;
+}
+
+.container {
+  max-width: 1380px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+header {
+  background-image: url(../../imgs/png/hero-img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  background-position: center;
+  height: 450px;
+}
+header .navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0;
+  align-items: center;
+}
+header .navbar i{
+    display: none;
+}
+header .navbar .navbar_menu ul {
+    display: none;
+}
+header .navbar button {
+    display: none;
+}
+header .navbar i{
+    display: block;
+    font-size: 30px;
+    color: #fff;
+}
+header .hero {
+  color: #fff;
+  margin-top: 7rem;
+}
+header .hero h1 {
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  width: 80%;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+header .hero button {
+  background-color: #9400ff;
+  color: #fff;
+  padding: 16px 35px;
+  border-radius: 30px;
+  border: 1px solid #9400ff;
+  text-transform: capitalize;
+}
+header .hero .rendered {
+  display: flex;
+  justify-content: center;
+  text-align: start;
+  margin-top: 4rem;
+  width: 60%;
+}
+header .hero h3 {
+  margin-bottom: 1rem;
+  display: none;
+
+}
+header .hero p {
+  font-size: 14px;
+  font-weight: 100;
+  width: 60%;
+  line-height: 1.7;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: none;
+
+}
+
+.unique_box {
+  background-color: #000;
+  padding: 2rem;
+}
+.unique_box .unique_text {
+  display: flex;
+  color: #fff;
+  flex-direction: column-reverse;
+}
+.unique_text img{
+    width: 90%;
+}
+.unique_box h1 {
+  font-size: 20px;
+  margin-bottom: 2rem;
+  font-weight: 300;
+  margin-top: 2rem;
+}
+.unique_box p {
+  font-size: 14px;
+  width: 100%;
+  margin-left: 0;
+  line-height: 1.5;
+  margin-bottom: 1  rem;
+}
+.unique_box button {
+  background-color: #9400ff;
+  color: #fff;
+  padding: 16px 35px;
+  border-radius: 30px;
+  border: 1px solid #9400ff;
+  text-transform: capitalize;
+}
+
+.icons_parent {
+  text-align: center;
+  color: #fff;
+}
+.icons_parent img{
+    width: 100%;
+}
+.icons {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  color: #fff;
+  margin-bottom: 4rem;
+}
+.icons p {
+  width: 80%;
+  font-size: 16px;
+}
+.icons img{
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */
+
+footer {
+  text-align: center;
+  background-color: #000;
+  padding: 6rem 0;
+  color: #fff;
+}
+footer p {
+  font-size: 16px;
+  margin-top: 1.5rem;
+}
+footer a {
+  text-decoration: none;
+  color: #9400fb;
+}
+}
+@media (min-width:601px) and (max-width:840px){
+
+.grab_parent {
+  text-align: center;
+  background-color: #000;
+  background-image: url(../../imgs/png/grab.png);
+  height: 400px;
+  padding: 8rem 0;
+}
+.grab_parent h1 {
+  font-size: 26px;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+.grab_parent p {
+  font-size: 16px;
+  width: 100%;
+  font-weight: 200;
+}
+.grab_parent button {
+  background-color: #9400ff;
+  color: #fff;
+  padding: 16px 25px;
+  border-radius: 30px;
+  border: 1px solid #9400ff;
+  text-transform: capitalize;
+  margin-top: 2rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "inter", sans-serif;
+}
+
+.container {
+  max-width: 1380px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+header {
+  background-image: url(../../imgs/png/hero-img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  background-position: center;
+  height: 650px;
+}
+header .navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0;
+  align-items: center;
+}
+header .navbar i{
+    display: none;
+}
+header .navbar .navbar_menu ul {
+    display: none;
+}
+header .navbar button {
+    display: none;
+}
+header .navbar i{
+    display: block;
+    font-size: 30px;
+    color: #fff;
+}
+header .hero {
+  color: #fff;
+  margin-top: 7rem;
+}
+header .hero h1 {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  width: 80%;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+header .hero button {
+  background-color: #9400ff;
+  color: #fff;
+  padding: 16px 35px;
+  border-radius: 30px;
+  border: 1px solid #9400ff;
+  text-transform: capitalize;
+}
+header .hero .rendered {
+  display: flex;
+  justify-content: center;
+  text-align: start;
+  margin-top: 4rem;
+  width: 70%;
+  gap: 3rem;
+}
+header .hero h3 {
+  margin-bottom: 1rem;
+  display: none;
+
+}
+header .hero p {
+  font-size: 16px;
+  font-weight: 100;
+  width: 100%;
+  line-height: 1.7;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+
+}
+
+.unique_box {
+  background-color: #000;
+  padding: 2rem;
+}
+.unique_box .unique_text {
+  display: flex;
+  color: #fff;
+  flex-direction: column-reverse;
+}
+.unique_text img{
+    width: 70%;
+    height: 700px;
+}
+.unique_box h1 {
+  font-size: 20px;
+  margin-bottom: 2rem;
+  font-weight: 300;
+  margin-top: 2rem;
+}
+.unique_box p {
+  font-size: 14px;
+  width: 100%;
+  margin-left: 0;
+  line-height: 1.5;
+  margin-bottom: 1  rem;
+}
+.unique_box button {
+  background-color: #9400ff;
+  color: #fff;
+  padding: 16px 35px;
+  border-radius: 30px;
+  border: 1px solid #9400ff;
+  text-transform: capitalize;
+}
+
+.icons_parent {
+  text-align: center;
+  color: #fff;
+}
+.icons_parent img{
+    width: 90%;
+}
+.icons {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  color: #fff;
+  margin-bottom: 4rem;
+}
+.icons p {
+  width: 80%;
+  font-size: 16px;
+}
+.icons img{
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */
+
+footer {
+  text-align: center;
+  background-color: #000;
+  padding: 6rem 0;
+  color: #fff;
+}
+footer p {
+  font-size: 16px;
+  margin-top: 1.5rem;
+}
+footer a {
+  text-decoration: none;
+  color: #9400fb;
+}
+}
