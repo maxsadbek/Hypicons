@@ -1,0 +1,29 @@
+@use'./../varibles' as*;
+.grab_parent{
+    text-align: center;
+    background-color: #000;
+    background-image: url(../../imgs/png/grab.png);
+    height: 400px;
+    padding: 8rem 0;
+    h1{
+        font-size: 46px;
+        font-weight: 300;
+        margin-bottom: 2rem;
+    }
+    p{
+        font-size: 20px;
+        width: 100%;
+        font-weight: 200;
+
+    }
+            button{
+        background-color: $br-color;
+        color: $text-color;
+        padding: 16px 35px;
+        border-radius: $br-radius-30;
+        border: 1px solid $br-color;
+        text-transform: capitalize;
+        margin-top: 2rem;
+        }
+
+}

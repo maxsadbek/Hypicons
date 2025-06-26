@@ -4,3 +4,14 @@
     text-align: center;
     color: #fff;
 }
+.icons{
+    display: flex;
+    justify-content: space-between;
+    gap: 10rem;
+    color: #fff;
+    p{
+        width: 80%;
+        font-size: 18px;
+    }
+    margin-bottom: 4rem;
+}
