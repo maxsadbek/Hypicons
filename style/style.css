@@ -443,7 +443,7 @@ header .hero h1 {
 header .hero button {
   background-color: #9400ff;
   color: #fff;
-  padding: 16px 35px;
+  padding: 16px 15px;
   border-radius: 30px;
   border: 1px solid #9400ff;
   text-transform: capitalize;
