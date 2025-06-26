@@ -111,4 +111,9 @@ header .hero p {
   text-transform: capitalize;
 }
 
+.icons_parent {
+  text-align: center;
+  color: #fff;
+}
+
 /*# sourceMappingURL=style.css.map */
