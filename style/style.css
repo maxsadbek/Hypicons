@@ -18,7 +18,7 @@ header {
   background-size: cover;
   object-fit: cover;
   background-position: center;
-  height: 700px;
+  height: 750px;
 }
 header .navbar {
   display: flex;
@@ -31,6 +31,7 @@ header .navbar .navbar_menu ul {
   color: white;
   list-style: none;
   gap: 2rem;
+  cursor: pointer;
 }
 header .navbar button {
   padding: 2px 22px;
@@ -39,6 +40,44 @@ header .navbar button {
   color: #fff;
   border-radius: 30px;
   text-transform: capitalize;
+  cursor: pointer;
+}
+header .hero {
+  color: #fff;
+  margin-top: 7rem;
+}
+header .hero h1 {
+  font-size: 40px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  width: 40%;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+header .hero button {
+  background-color: #9400ff;
+  color: #fff;
+  padding: 16px 35px;
+  border-radius: 30px;
+  border: 1px solid #9400ff;
+  text-transform: capitalize;
+}
+header .hero .rendered {
+  display: flex;
+  justify-content: center;
+  text-align: start;
+  margin-top: 4rem;
+  width: 60%;
+}
+header .hero h3 {
+  margin-bottom: 1rem;
+}
+header .hero p {
+  font-size: 14px;
+  font-weight: 100;
+  width: 60%;
+  line-height: 1.7;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */
