@@ -1,0 +1,32 @@
+@use'../normal.scss';
+@use'../varibles' as*;
+.unique_box{
+    background-color: #000;
+    padding: $rem-7;
+    .unique_text{
+        display: flex;
+        justify-content: center;
+        color: $text-color;
+        align-items: center;
+    }
+        h1{
+            font-size: $fnt-size-50;
+            margin-bottom: $rem-2;
+            font-weight: $font-weight-300;
+        }
+        p{
+            font-size: $fnt-size-16;
+            width: 50%;
+            margin-left: $rem-1;
+            line-height: 2;
+            margin-bottom: $rem-2;
+        }
+        button{
+        background-color: $br-color;
+        color: $text-color;
+        padding: 16px 35px;
+        border-radius: $br-radius-30;
+        border: 1px solid $br-color;
+        text-transform: capitalize;
+        }
+}
